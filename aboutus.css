@@ -110,3 +110,77 @@ h2{
     padding-right: 149px;
     
 }
+.toggle{
+    display: none;
+  }
+  .mobile-links{
+    display: none;
+  }
+  
+  @media screen and (max-width: 992px) {
+    nav .fa-bars {
+      display: block;
+    }
+  
+    nav ul {
+      display: none;
+    }
+  
+    .portal {
+      display: none;
+    }
+    .toggle {
+      display: block;
+      position: absolute;
+      right: 10px;
+      top: 20px;
+    }
+  
+    .active {
+      display: block !important;
+    } 
+  
+    .mobile-links{
+      display: none;
+      background-color: #FFFFFF;
+      position: fixed;
+      right: 0;
+      top: 50px;
+      width: 50%;
+      z-index: 100;
+      text-decoration: none;
+      list-style: none;
+      color: #630D08;
+  
+    }
+   li a {
+    text-decoration: none;
+    color: #630D08;
+   }
+
+.paragraph-1 p{
+    Font-family: Roboto;
+    Font-style: Bold;
+    Font-size: 23px;
+    width: 100%;
+    padding: 10%;
+}
+.paragraph-2 p{
+    Font-family: Roboto;
+    Font-style: Bold;
+    Font-size: 23px;
+    width: 100%;
+    padding: 10%;
+}
+h1{
+    Font-family: Roboto;
+    Font-style: Bold;
+    Font-size: 24px;
+}
+h2{
+    Font-family: Roboto;
+    Font-style: Bold;
+    Font-size: 24px;
+    padding: 5%;
+  }
+}
