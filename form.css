@@ -99,11 +99,56 @@ footer p{
      display: flex;
     justify-content: center; 
 }
+.toggle{
+    display: none;
+  }
+  .mobile-links{
+    display: none;
+  }
+  
 
 @media screen and (max-width: 992px) {
-    body{
-        width: 20%;
-    }
+    nav .fa-bars {
+        display: block;
+      }
+    
+      nav ul {
+        display: none;
+      }
+    
+      .portal {
+        display: none;
+      }
+      .toggle {
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 20px;
+      }
+    
+      .active {
+        display: block !important;
+      } 
+    
+      .mobile-links{
+          display: none;
+        background-color: #FFFFFF;
+        position: fixed;
+        right: 0;
+        top: 50px;
+        width: 70%;
+        z-index: 100;
+        text-decoration: none;
+        list-style: none;
+        color: #630D08;
+        padding: 10px;
+    
+      }
+     li a {
+      text-decoration: none;
+      color: #630D08;
+      padding: 20px;
+     }
     .f-logo{
         display: flex;
         margin: auto;
@@ -206,4 +251,5 @@ footer p{
         font-size: 15px;
         margin-left: 30%;
     }
+       
 }

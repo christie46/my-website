@@ -7,5 +7,6 @@ function toggle() {
     } else {
         document.getElementById("one").classList.remove("active");
         menu = false
+        console.log("unclicked")
     }
 }    
