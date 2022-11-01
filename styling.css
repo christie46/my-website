@@ -157,8 +157,8 @@ nav ul li:nth-child(6){
     width:500px;
     height: auto;
     right: -11%;
-    bottom: -2%;
-    z-index: 1 ;
+    bottom: -1.5%;
+    z-index: 1;
 }
 .right-sec .Young-men img{
     width:100%;
